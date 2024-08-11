@@ -1680,14 +1680,15 @@ collision_mask = 65543
 script = ExtResource("1_r551r")
 _speed = 5.0
 _acceleration = 10.0
-_deceleration = 20.0
+_deceleration = 24.0
+_coyote_duration = 0.2
 _jump_dust = ExtResource("2_top12")
 _invincible_duration = 1.0
 _is_attacking = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -12)
-texture = ExtResource("14_h4jrl")
+texture = ExtResource("17_cf7gp")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D"]
 libraries = {
@@ -1751,5 +1752,9 @@ sprite_frames = SubResource("SpriteFrames_ebong")
 animation = &"air_attack_2"
 frame = 2
 frame_progress = 1.0
+
+[node name="CoyoteTimer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
 
 [connection signal="area_entered" from="HitBox" to="." method="_on_hit_box_area_entered"]

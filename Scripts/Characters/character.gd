@@ -11,10 +11,13 @@ var _max : Vector2
 
 @export_category("Jump")
 @export var _jump_height : float = 2.5
-@export var _air_control : float = 0.5
+@export var _air_control : float = 0.8
+@export_range(0, 1) var _coyote_duration : float = 0
 @export var _jump_dust : PackedScene
 var _jump_velocity : float
 var _was_on_floor : bool
+var _has_double_jump: bool = false
+var _coyote_time : Timer
 
 @export_category("Sprite")
 @export var _is_facing_left : bool
@@ -64,6 +67,8 @@ func _ready():
 	face_left() if _is_facing_left else face_right()
 	if _invincible_duration != 0:
 		_invincible_time = $HurtBox/Invincible
+	if _coyote_duration != 0:
+		_coyote_time = $CoyoteTimer
 	if _hit_box:
 		_hit_box.monitoring = false
 	_is_attacking = false
@@ -141,15 +146,18 @@ func jump():
 			landed.emit(position.y)
 		else:
 			velocity.y = _jump_velocity
-	elif is_on_floor():
+	elif is_on_floor() || not _coyote_time.is_stopped() || _has_double_jump:
 		velocity.y = _jump_velocity
-		_spawn_dust(_jump_dust)
+		if(not is_on_floor() && _coyote_time.is_stopped()):
+			_has_double_jump = false
+		if(is_on_floor()):
+			_spawn_dust(_jump_dust)
+		_coyote_time.stop()
 
 func stop_jump():
 	if _is_dead || _is_attacking:
 		return
 	if velocity.y < 0 && not _is_in_water:
-		#velocity.y = 0
 		velocity.y /= 2
 
 func enter_water(water_surface_height : float):
@@ -194,8 +202,12 @@ func _physics_process(delta : float):
 		_air_physics(delta)
 	_was_on_floor = is_on_floor()
 	move_and_slide()
+	if is_on_floor():
+		_has_double_jump = true
 	if not _was_on_floor && is_on_floor():
 		_land()
+	if _was_on_floor && not is_on_floor() && _coyote_duration > 0:
+		_coyote_time.start(_coyote_duration)
 	if _is_bound:
 		position.x = clamp(position.x, _min.x, _max.x)
 		position.y = clamp(position.y, _min.y, _max.y)
@@ -203,7 +215,7 @@ func _physics_process(delta : float):
 func _ground_physics(delta : float):
 	# decelerate to zero
 	if _direction == 0:
-		velocity.x = move_toward(velocity.x, 0, _deceleration * delta)
+		velocity.x = move_toward(velocity.x, 0, pow(2, _deceleration * delta))
 	# accelerate from not moving, or trying to move in same direction
 	elif velocity.x == 0 || sign(_direction) == sign(velocity.x):
 		velocity.x = move_toward(velocity.x, _direction * _speed, _acceleration * delta)
