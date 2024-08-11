@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://dg55dta7sxucv"]
 
-[ext_resource type="Texture2D" uid="uid://bvwlq6v7a3at1" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 01.png" id="1_xrqn7"]
-[ext_resource type="Texture2D" uid="uid://3ciofkcilpuj" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 02.png" id="2_56qo1"]
-[ext_resource type="Texture2D" uid="uid://qhrairn8jad5" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 03.png" id="3_1u23p"]
-[ext_resource type="Texture2D" uid="uid://cm7a8lsvqrg3q" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 04.png" id="4_aqhqn"]
-[ext_resource type="Texture2D" uid="uid://b5p7qnte5lxv8" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 05.png" id="5_aebgy"]
+[ext_resource type="Texture2D" uid="uid://bvwlq6v7a3at1" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 01.png" id="1_xrqn7"]
+[ext_resource type="Texture2D" uid="uid://3ciofkcilpuj" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 02.png" id="2_56qo1"]
+[ext_resource type="Texture2D" uid="uid://qhrairn8jad5" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 03.png" id="3_1u23p"]
+[ext_resource type="Texture2D" uid="uid://cm7a8lsvqrg3q" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 04.png" id="4_aqhqn"]
+[ext_resource type="Texture2D" uid="uid://b5p7qnte5lxv8" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Run 05.png" id="5_aebgy"]
 [ext_resource type="Script" path="res://Scripts/Environment/dust.gd" id="6_fpybw"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_53av0"]

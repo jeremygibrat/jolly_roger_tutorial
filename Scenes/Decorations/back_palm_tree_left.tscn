@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://cow74terq62vw"]
 
-[ext_resource type="Texture2D" uid="uid://bnopehos1l7ug" path="res://Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 01.png" id="1_73k78"]
-[ext_resource type="Texture2D" uid="uid://jstjqxmtfu8o" path="res://Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 02.png" id="2_w5if2"]
-[ext_resource type="Texture2D" uid="uid://bygx05ykech5q" path="res://Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 03.png" id="3_l80mm"]
-[ext_resource type="Texture2D" uid="uid://dwk8coboifrny" path="res://Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 04.png" id="4_44ob3"]
+[ext_resource type="Texture2D" uid="uid://bnopehos1l7ug" path="res://Assets/Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 01.png" id="1_73k78"]
+[ext_resource type="Texture2D" uid="uid://jstjqxmtfu8o" path="res://Assets/Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 02.png" id="2_w5if2"]
+[ext_resource type="Texture2D" uid="uid://bygx05ykech5q" path="res://Assets/Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 03.png" id="3_l80mm"]
+[ext_resource type="Texture2D" uid="uid://dwk8coboifrny" path="res://Assets/Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 04.png" id="4_44ob3"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_7axa0"]
 animations = [{

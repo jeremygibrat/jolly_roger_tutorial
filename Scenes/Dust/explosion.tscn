@@ -1,13 +1,13 @@
 [gd_scene load_steps=10 format=3 uid="uid://c4yn25uvfkfwj"]
 
-[ext_resource type="Texture2D" uid="uid://dd6itt8whtpdr" path="res://Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/1.png" id="1_ejy8j"]
-[ext_resource type="Texture2D" uid="uid://c65rbwdq2yr4h" path="res://Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/2.png" id="2_er7i7"]
-[ext_resource type="Texture2D" uid="uid://dtrqlmggfjwdt" path="res://Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/3.png" id="3_qxwsv"]
-[ext_resource type="Texture2D" uid="uid://c5m72flf6nn2n" path="res://Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/4.png" id="4_20q8a"]
-[ext_resource type="Texture2D" uid="uid://b6cxmnbljdtob" path="res://Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/5.png" id="5_ohywl"]
-[ext_resource type="Texture2D" uid="uid://djtoly5ou7g40" path="res://Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/6.png" id="6_703kn"]
+[ext_resource type="Texture2D" uid="uid://dd6itt8whtpdr" path="res://Assets/Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/1.png" id="1_ejy8j"]
+[ext_resource type="Texture2D" uid="uid://c65rbwdq2yr4h" path="res://Assets/Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/2.png" id="2_er7i7"]
+[ext_resource type="Texture2D" uid="uid://dtrqlmggfjwdt" path="res://Assets/Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/3.png" id="3_qxwsv"]
+[ext_resource type="Texture2D" uid="uid://c5m72flf6nn2n" path="res://Assets/Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/4.png" id="4_20q8a"]
+[ext_resource type="Texture2D" uid="uid://b6cxmnbljdtob" path="res://Assets/Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/5.png" id="5_ohywl"]
+[ext_resource type="Texture2D" uid="uid://djtoly5ou7g40" path="res://Assets/Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/6.png" id="6_703kn"]
 [ext_resource type="Script" path="res://Scripts/Environment/dust.gd" id="6_cb2t1"]
-[ext_resource type="Texture2D" uid="uid://d1p04fiolc60c" path="res://Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/7.png" id="7_vkcr3"]
+[ext_resource type="Texture2D" uid="uid://d1p04fiolc60c" path="res://Assets/Treasure Hunters/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/7.png" id="7_vkcr3"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_53av0"]
 animations = [{

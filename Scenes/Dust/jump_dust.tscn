@@ -1,12 +1,12 @@
 [gd_scene load_steps=9 format=3 uid="uid://cs1y72y70b50n"]
 
-[ext_resource type="Texture2D" uid="uid://b3tt5eoc1jghv" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 01.png" id="1_rnado"]
-[ext_resource type="Texture2D" uid="uid://cegbkfrrbvhlx" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 02.png" id="2_ojk50"]
-[ext_resource type="Texture2D" uid="uid://fqa4uffwbh1e" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 03.png" id="3_8jht3"]
-[ext_resource type="Texture2D" uid="uid://bqsspd8bqn525" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 04.png" id="4_08ey3"]
-[ext_resource type="Texture2D" uid="uid://dsw3lb8djiy1p" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 05.png" id="5_jeuhd"]
+[ext_resource type="Texture2D" uid="uid://b3tt5eoc1jghv" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 01.png" id="1_rnado"]
+[ext_resource type="Texture2D" uid="uid://cegbkfrrbvhlx" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 02.png" id="2_ojk50"]
+[ext_resource type="Texture2D" uid="uid://fqa4uffwbh1e" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 03.png" id="3_8jht3"]
+[ext_resource type="Texture2D" uid="uid://bqsspd8bqn525" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 04.png" id="4_08ey3"]
+[ext_resource type="Texture2D" uid="uid://dsw3lb8djiy1p" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 05.png" id="5_jeuhd"]
 [ext_resource type="Script" path="res://Scripts/Environment/dust.gd" id="6_3kqgo"]
-[ext_resource type="Texture2D" uid="uid://328jtbasr2e6" path="res://Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 06.png" id="6_sunbs"]
+[ext_resource type="Texture2D" uid="uid://328jtbasr2e6" path="res://Assets/Treasure Hunters/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles/Jump 06.png" id="6_sunbs"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_53av0"]
 animations = [{

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b37s2bhji8sna"
+path="res://.godot/imported/712051__myliejoemoss1996__my-gulp-recording.wav-5ab9c72d9bc2ac8b7d3180cacbdf4a89.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Treasure/712051__myliejoemoss1996__my-gulp-recording.wav"
+dest_files=["res://.godot/imported/712051__myliejoemoss1996__my-gulp-recording.wav-5ab9c72d9bc2ac8b7d3180cacbdf4a89.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
